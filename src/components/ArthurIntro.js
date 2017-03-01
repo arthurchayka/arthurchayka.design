@@ -5,7 +5,7 @@ class ArthurIntro extends React.Component {
   render() {
     return (
         <div className="arthur-intro">
-  YO I'm arthur's intro
+          <p>yo this is arthur's website.</p>
         </div>
     )
   }
