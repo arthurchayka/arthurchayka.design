@@ -37,6 +37,6 @@ body {
   width: 100%;
   margin-top: 4000px;
 }
-.test {
-  color: tomato;
+.footer-text {
+  font-size: 12px;
 }
