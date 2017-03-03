@@ -38,6 +38,10 @@ body {
 .hide-me {
   display: none;
 }
+.hover-effect:hover {
+  background-color: white;
+  color: papayawhip;
+}
 .footer {
   display: block;
   width: 100%;
