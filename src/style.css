@@ -16,6 +16,11 @@ body {
 }
 .header {
   text-align: left;
+  margin-left: 20px;
+}
+.hover-effect:hover {
+  background-color: white;
+  color: papayawhip;
 }
 .arthur-intro {
   width: 50%;
@@ -37,10 +42,6 @@ body {
 }
 .hide-me {
   display: none;
-}
-.hover-effect:hover {
-  background-color: white;
-  color: papayawhip;
 }
 .footer {
   display: block;
