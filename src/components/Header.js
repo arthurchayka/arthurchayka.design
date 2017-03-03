@@ -1,12 +1,12 @@
-import React from 'react';
+import React, { Component } from 'react';
 
-class Header extends React.Component {
+class Header extends Component {
 
   render() {
     return (
         <div className="header">
-            <span id="see-more"> see more | </span>
-            <span id="feel-more"> feel more </span>
+            <span id="see-more">see more | </span>
+            <span id="feel-more">feel more</span>
         </div>
     )
   }

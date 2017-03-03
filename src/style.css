@@ -29,8 +29,14 @@ body {
   display: inline-block;
   float: left;
 }
-.honey {
+.image {
   max-width: 90%;
+}
+.show-me {
+  display: block;
+}
+.hide-me {
+  display: none;
 }
 .footer {
   display: block;

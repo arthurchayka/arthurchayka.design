@@ -1,10 +1,10 @@
-import React from 'react';
+import React, { Component } from 'react';
 
-class MainImage extends React.Component {
+class MainImage extends Component {
   render() {
     return (
         <div className="main-image">
-          <img className="honey" src="images/honey.jpg" alt="banana" />
+          <img id="honey" className="image show-me" src="images/honey.jpg" alt="honey" />
         </div>
     )
   }

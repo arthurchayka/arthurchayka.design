@@ -1,11 +1,11 @@
-import React from 'react';
+import React, { Component } from 'react';
 
-class ArthurIntro extends React.Component {
+class ArthurIntro extends Component {
 
   render() {
     return (
         <div className="arthur-intro">
-          <p>yo this is arthur's website.</p>
+          <p> yo this is arthur's website.</p>
         </div>
     )
   }
