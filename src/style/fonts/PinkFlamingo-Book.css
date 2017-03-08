@@ -1,0 +1,10 @@
+
+@font-face {
+font-family: 'PinkFlamingo-Book';
+src: url('PinkFlamingo-Book.eot'); /* IE9 Compat Modes */
+src: url('PinkFlamingo-Book.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+     url('PinkFlamingo-Book.woff2') format('woff2'), /* Super Modern Browsers */
+     url('PinkFlamingo-Book.woff') format('woff'), /* Pretty Modern Browsers */
+     url('PinkFlamingo-Book.ttf')  format('truetype'), /* Safari, Android, iOS */
+     url('PinkFlamingo-Book.svg#svgPinkFlamingo-Book') format('svg'); /* Legacy iOS */
+}

@@ -3,8 +3,8 @@ import {render} from 'react-dom';
 import App from './components/App';
 import './style/style.css';
 import './style/meyer-reset.css';
-import './style/fonts/CircularStd-Book.css';
-import './style/fonts/CircularStd-Medium.css';
+import './style/fonts/PinkFlamingo-Book.css';
+import './style/fonts/PinkFlamingo-Medium.css';
 
 
 render(
