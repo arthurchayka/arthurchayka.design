@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import Header from './Header';
 import ArthurIntro from './ArthurIntro';
 import MainImage from './MainImage';
-import GrapefruitImage from './GrapefruitImage';
+import BananasImage from './BananasImage';
 import ColourBombImage from './ColourBombImage';
 import Footer from './Footer';
 
@@ -16,7 +16,7 @@ class App extends Component {
         </div>
         <div className="right">
           <MainImage />
-          <GrapefruitImage />
+          <BananasImage />
           <ColourBombImage />
         </div>
         <div className="footer">
