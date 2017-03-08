@@ -1,0 +1,10 @@
+
+@font-face {
+font-family: 'CircularStd-Book';
+src: url('CircularStd-Book.eot'); /* IE9 Compat Modes */
+src: url('CircularStd-Book.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+     url('CircularStd-Book.woff2') format('woff2'), /* Super Modern Browsers */
+     url('CircularStd-Book.woff') format('woff'), /* Pretty Modern Browsers */
+     url('CircularStd-Book.ttf')  format('truetype'), /* Safari, Android, iOS */
+     url('CircularStd-Book.svg#svgCircularStd-Book') format('svg'); /* Legacy iOS */
+}

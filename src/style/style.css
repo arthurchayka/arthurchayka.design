@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+.wrapper {
+  text-align: center;
+  color: #fff;
+  background-color: papayawhip;
+  font-family: 'CircularStd-Book', sans-serif;
+  font-size: 40px;
+  height: 4100px;
+  padding:20px;
+}
+.header {
+  text-align: left;
+  margin-left: 20px;
+}
+.hover-effect:hover {
+  background-color: white;
+  color: papayawhip;
+}
+.arthur-intro {
+  width: 50%;
+  display: inline-block;
+  float: left;
+  background-color: papayawhip;
+  margin: 100px 20px;
+}
+.main-image {
+  width: 45%;
+  display: inline-block;
+  float: left;
+}
+.image {
+  max-width: 90%;
+}
+.show-me {
+  display: block;
+}
+.hide-me {
+  display: none;
+}
+.footer {
+  display: block;
+  width: 100%;
+  margin-top: 4000px;
+}
+.footer-text {
+  font-size: 12px;
+}
