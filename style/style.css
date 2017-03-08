@@ -16,7 +16,19 @@ body {
   border:1px solid red;
 
 }
-.header {
+.left-wrapper {
+  order: 1;
+}
+.right-wrapper {
+  order: 2;
+}
+.footer {
+  order: 3;
+  /*display: block;
+  width: 100%;
+  margin-top: 4000px;*/
+}
+.navigation {
   /*text-align: left;
   margin-left: 20px;*/
   border:1px solid red;
@@ -25,7 +37,7 @@ body {
   background-color: white;
   color: papayawhip;
 }
-.arthur-intro {
+.about {
   /*width: 50%;
   display: inline-block;
   float: left;
@@ -48,11 +60,6 @@ body {
 }
 .hide-me {
   display: none;
-}
-.footer {
-  /*display: block;
-  width: 100%;
-  margin-top: 4000px;*/
 }
 .footer-text {
   font-size: 12px;
