@@ -4,33 +4,38 @@ body {
   font-family: sans-serif;
 }
 .wrapper {
-  text-align: center;
+  display: flex;
+  flex-wrap: wrap;
+  /*text-align: center;*/
   color: #fff;
   background-color: papayawhip;
   font-family: 'PinkFlamingo-Book', sans-serif;
   font-size: 40px;
-  height: 4100px;
-  padding:20px;
+  /*height: 4100px;
+  padding:20px;*/
+  border:1px solid red;
+
 }
 .header {
-  text-align: left;
-  margin-left: 20px;
+  /*text-align: left;
+  margin-left: 20px;*/
+  border:1px solid red;
 }
 .hover-effect:hover {
   background-color: white;
   color: papayawhip;
 }
 .arthur-intro {
-  width: 50%;
+  /*width: 50%;
   display: inline-block;
   float: left;
   background-color: papayawhip;
-  margin: 100px 20px;
+  margin: 100px 20px;*/
   border:1px solid red;
 }
 .main-image {
-  width: 50%;
-  display: inline-block;
+  /*width: 50%;
+  display: inline-block;*/
   border:1px solid red;
 }
 .image {
@@ -45,9 +50,9 @@ body {
   display: none;
 }
 .footer {
-  display: block;
+  /*display: block;
   width: 100%;
-  margin-top: 4000px;
+  margin-top: 4000px;*/
 }
 .footer-text {
   font-size: 12px;
