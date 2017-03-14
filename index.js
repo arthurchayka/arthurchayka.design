@@ -1,30 +1,30 @@
 $( document ).ready(function() {
   $( "#see-more" ).on({
       mouseenter: function() {
-        $( '#img' ).removeClass( "show-me" );
-        $( '#img' ).addClass( "hide-me" );
-        $( '#honey' ).removeClass( "hide-me" );
-        $( '#honey' ).addClass( "show-me" );
+        $( '#image' ).removeClass( "show-me" );
+        $( '#image' ).addClass( "hide-me" );
+        $( '#dribbble' ).removeClass( "hide-me" );
+        $( '#dribbble' ).addClass( "show-me" );
       },
       mouseleave: function() {
-          $( '#img' ).removeClass( "hide-me" );
-          $( '#img' ).addClass( "show-me" );
-          $( '#honey' ).removeClass( "show-me" );
-          $( '#honey' ).addClass( "hide-me" );
+          $( '#image' ).removeClass( "hide-me" );
+          $( '#image' ).addClass( "show-me" );
+          $( '#dribbble' ).removeClass( "show-me" );
+          $( '#dribbble' ).addClass( "hide-me" );
       }
   });
   $( "#feel-more" ).on({
       mouseenter: function() {
-        $( '#img' ).removeClass( "show-me" );
-        $( '#img' ).addClass( "hide-me" );
-        $( '#colour-bomb' ).removeClass( "hide-me" );
-        $( '#colour-bomb' ).addClass( "show-me" );
+        $( '#image' ).removeClass( "show-me" );
+        $( '#image' ).addClass( "hide-me" );
+        $( '#instagram' ).removeClass( "hide-me" );
+        $( '#instagram' ).addClass( "show-me" );
       },
       mouseleave: function() {
-          $( '#img' ).removeClass( "hide-me" );
-          $( '#img' ).addClass( "show-me" );
-          $( '#colour-bomb' ).removeClass( "show-me" );
-          $( '#colour-bomb' ).addClass( "hide-me" );
+          $( '#image' ).removeClass( "hide-me" );
+          $( '#image' ).addClass( "show-me" );
+          $( '#instagram' ).removeClass( "show-me" );
+          $( '#instagram' ).addClass( "hide-me" );
       }
   });
 });
