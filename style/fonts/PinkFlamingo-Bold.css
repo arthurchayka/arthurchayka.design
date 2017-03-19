@@ -1,0 +1,10 @@
+
+@font-face {
+font-family: 'PinkFlamingo-Bold';
+src: url('PinkFlamingo-Bold.eot'); /* IE9 Compat Modes */
+src: url('PinkFlamingo-Bold.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+     url('PinkFlamingo-Bold.woff2') format('woff2'), /* Super Modern Browsers */
+     url('PinkFlamingo-Bold.woff') format('woff'), /* Pretty Modern Browsers */
+     url('PinkFlamingo-Bold.ttf')  format('truetype'), /* Safari, Android, iOS */
+     url('PinkFlamingo-Bold.svg#svgPinkFlamingo-Bold') format('svg'); /* Legacy iOS */
+}
