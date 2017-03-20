@@ -32,6 +32,9 @@
   flex: 0 0 auto;
   align-self: auto;
   padding: 2.5rem;
+  position: absolute;
+  top: 0;
+  left: 0;
 }
 
 .copy{
