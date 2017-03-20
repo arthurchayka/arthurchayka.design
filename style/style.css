@@ -1,31 +1,36 @@
 h1 {
-    font-family: 'PinkFlamingo-Bold', sans-serif;
-    font-size: 55px;
-    line-height: 1.1;
+    font-size: 3.5rem;
     color: rgb(0, 0, 0);
+    cursor: default;
+    font-family: 'PinkFlamingo-Bold', sans-serif;
     overflow: hidden;
 }
 
 h2 {
-    font-family: 'PinkFlamingo-Medium', sans-serif;
-    font-size: 47px;
-    line-height: 1.2;
-    color: rgba(0, 0, 0, .44);
+    font-size: 3rem;
+    color: rgba(0, 0, 0, .3);
+    cursor: default;
+    font-family: 'PinkFlamingo-Bold', sans-serif;
     overflow: hidden;
 }
 
 p {
-    font-family: 'PinkFlamingo-Book', sans-serif;
-    font-size: 18px;
+    font-size: 1.2rem;
     line-height: 1.5;
-    color: rgba(0, 0, 0, .44);
+    color: rgba(0, 0, 0, .4);
     overflow: hidden;
     padding-top: 20px;
+    letter-spacing: 0;
+    cursor: default;
+    overflow: hidden;
+}
+
+a {
+    cursor: pointer;
 }
 
 .CTA {
-    font-family: 'PinkFlamingo-Book', sans-serif;
-    font-size: 20px;
+    font-size: 1.3rem;
     color: rgb(0, 0, 0);
 }
 
@@ -39,7 +44,6 @@ p {
 }
 
 .top-wrapper {
-    font-family: 'PinkFlamingo-Book', sans-serif;
     height: 100%;
 }
 
@@ -50,6 +54,7 @@ p {
 
 
 /*NAVIGATION*/
+
 .top-left-wrapper {
     width: 80%;
     text-align: left;
@@ -57,8 +62,7 @@ p {
 }
 
 .navigation-text {
-    font-family: 'PinkFlamingo-Book', sans-serif;
-    font-size: 20px;
+    font-size: 1.3rem;
     color: rgb(0, 0, 0);
     margin-right: 30px;
 }
