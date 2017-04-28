@@ -110,6 +110,22 @@ a {
     display: none;
 }
 
+.slideshow-block{
+  margin:10px;
+	position: relative;
+	width: 400px;
+	height: 400px;
+	overflow: hidden;
+}
+
+.slides{
+	z-index:0;
+	visibility: hidden;
+}
+.slides.active{
+	visibility: visible;
+}
+
 
 /*FOOTER*/
 

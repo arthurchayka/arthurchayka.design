@@ -20,11 +20,11 @@
           <div class="left-wrapper">
                   <div class="nav">
                             <a href="https://dribbble.com/arthurchayka">
-                            <span class="navigation-text" id="see-more">Work</span>
+                            <span class="navigation-text" id="dribbble">Work</span>
                             </a>
 
                             <a href="https://www.instagram.com/arthurchayka/">
-                            <span class="navigation-text" id="feel-more">Play</span>
+                            <span class="navigation-text" id="instagram">Play</span>
                             </a>
                     </div>
 
@@ -43,9 +43,15 @@
                 <div class="cover-image">
                     <img id="image" class="image show-me" src="images/bananas.png" alt="two bananas on blue background" />
                 </div>
+
                 <div class="cover-preview">
-                    <img id="dribbble" class="image hide-me" src="images/honey.jpg" alt="honey" />
-                    <img id="instagram" class="image hide-me" src="images/colour-bomb.jpg" alt="colour-bomb" />
+                  <div class="slideshow-block cover-image">
+                      <ul class="slides">
+                        <li><img class="image" src="images/bananas.png" alt="bananas"></li>
+                        <li><img class="image" src="images/honey.jpg" alt="honey"></li>
+                        <li><img class="image" src="images/colour-bomb.jpg" alt="colour bomb"></li>
+                        <li><img class="image" src="images/grapefruit.jpg" alt="grapefruit"></li>
+                   </div>
                 </div>
             </div>
             </div>
@@ -60,7 +66,10 @@
         </div>
     </div>
 </body>
+
 <script src="http://storage.googleapis.com/el-static/test/jquery.js"></script>
+<script src="http://cherne.net/brian/resources/jquery.hoverIntent.js"></script>
+<script src="https://malsup.github.io/jquery.cycle.all.js"></script>
 <script src="index.js"></script>
 
 </html>
