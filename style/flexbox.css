@@ -6,7 +6,7 @@
   justify-content: flex-start;
   align-content: flex-start;
   align-items: stretch;
-  border: 1px solid black;
+  /*border: 1px solid black;*/
 }
 
 /*LEFT COPY PART*/
@@ -16,18 +16,18 @@
   align-self: auto;
   width: 50vh;
   height: 100vh;
-  border: 1px solid green;
+  /*border: 1px solid green;*/
   /*AS CONTAINER*/
   display: flex;
   flex-direction: column;
   flex-wrap: nowrap;
-  justify-content: center;
+  justify-content: flex-start;
   align-content: center;
   align-items: stretch;
 }
 
 .nav{
-  border: 1px solid blue;
+  /*border: 1px solid blue;*/
   order: 0;
   flex: 0 0 auto;
   align-self: auto;
@@ -38,13 +38,14 @@
 }
 
 .copy{
-  border: 1px solid purple;
+  /*border: 1px solid purple;*/
   order: 1;
   flex: 0 0 auto;
   align-self: auto;
+  padding: 3.5rem;
+  padding-bottom: 7rem;
   margin-bottom:auto;
   margin-top: auto;
-  padding: 2.5rem;
 }
 /*RIGHT TOP PART*/
 .right-wrapper {
@@ -53,8 +54,9 @@
   align-self: auto;
   width: 50vh;
   height: 100vh;
-  border: 1px solid red;
+  /*border: 1px solid red;*/
   display: flex;
+  justify-content: center;
 }
 
 .cover-preview {

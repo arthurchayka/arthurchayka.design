@@ -1,0 +1,62 @@
+
+
+/* Smartphones (portrait and landscape) ----------- */
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+.h1-mobile{
+  display:block;
+}
+.h1-desktop {
+  display: none;
+}
+h1 {
+    font-size: 2.6rem;
+}
+h2 {
+    display: none;
+}
+.p-mobile{
+  display: block;
+}
+.p-desktop{
+  display: none;
+}
+p {
+    font-size: 1.3rem;
+    padding-top: 1rem;
+}
+.copy{
+  padding: 2rem;
+  padding-bottom: 5rem;
+}
+.nav{
+  padding: 2rem;
+}
+.footer-desktop{
+  display: none;
+}
+.footer-mobile{
+  display: block;
+}
+}
+
+/* iPads (portrait and landscape) ----------- */
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) {
+  h2 {
+    display: none;
+  }
+  p{
+    font-size: 1.5rem;
+  }
+  .footer-desktop{
+    display: none;
+  }
+  .footer-mobile{
+    display: block;
+  }
+  .navigation-text, .CTA
+  {
+    font-size: 1.8rem;
+  }
+  .cover-image {
+      width: 100%;
+}

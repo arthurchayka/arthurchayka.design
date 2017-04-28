@@ -6,6 +6,10 @@ h1 {
     overflow: hidden;
 }
 
+.h1-mobile{
+  display: none;
+}
+
 h2 {
     font-size: 3rem;
     color: rgba(0, 0, 0, .3);
@@ -23,6 +27,9 @@ p {
     letter-spacing: 0;
     cursor: default;
     overflow: hidden;
+}
+.p-mobile{
+  display: none;
 }
 
 a {
@@ -111,29 +118,12 @@ a {
     height: 100vh;
 }
 
-.footer {
+.footer p{
     text-align: center;
-}
-
-.footer-text {
     color: #fff;
     font-size: 30px;
-    display: block;
 }
 
-@media (max-width: 450px) {
-    .footer-text {
-        display: none;
-    }
-}
-
-.footer-text-mobile {
-    display: none;
-    font-size: 30px;
-}
-
-@media (max-width: 450px) {
-    .footer-text-mobile {
-        display: block;
-    }
+.footer-mobile{
+  display: none;
 }
